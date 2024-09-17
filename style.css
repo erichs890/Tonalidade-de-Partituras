@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+form.qual {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form.qual label {
+    font-size: 1.2em;
+    color: #555;
+    margin-right: 15px;
+}
+
+form.qual input[type="radio"] {
+    margin-right: 10px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.credits {
+    font-size: 14px;
+}
+.credits p {
+    margin: 5px 0;
+}
