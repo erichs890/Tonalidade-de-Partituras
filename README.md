@@ -1,43 +1,46 @@
-Projeto de Escalas Musicais
-Descrição
+# Projeto de Escalas Musicais
 
-Este projeto é uma ferramenta para visualizar informações sobre escalas musicais com sustenidos e bemóis. Ele permite que o usuário selecione o número de sustenidos ou bemóis e veja detalhes sobre o tom musical correspondente, incluindo a escala, a escala em cifra e as notas afetadas. É útil para músicos e estudantes de música que desejam explorar e entender melhor a teoria musical.
-Funcionalidades
+## Descrição
 
-    Seleção de Sustenidos e Bemóis: Escolha entre escalas com sustenidos ou bemóis usando botões de rádio.
-    Exibição de Informações: Exibe o tom musical, o tom relativo, a escala, a escala em cifra e as notas afetadas de acordo com a seleção.
-    Interface Intuitiva: Interface simples e fácil de usar com campos de entrada numéricos para seleção.
+Este projeto é uma ferramenta interativa para visualizar escalas musicais com sustenidos e bemóis. Ele permite que você selecione o número de sustenidos ou bemóis e veja informações detalhadas sobre a escala musical correspondente. Ideal para músicos e estudantes de música que desejam explorar a teoria musical de maneira prática.
 
-Tecnologias Utilizadas
+## Funcionalidades
 
-    HTML: Estrutura da página.
-    JavaScript: Lógica para manipulação e exibição das escalas musicais.
+- **Seleção de Sustenidos e Bemóis:** Escolha entre escalas com sustenidos ou bemóis usando botões de rádio.
+- **Exibição de Informações:** Mostra o tom musical, o tom relativo, a escala, a escala em cifra e as notas afetadas com base na sua seleção.
+- **Interface Intuitiva:** Interface simples e fácil de usar com campos de entrada numéricos para seleção.
 
-Como Usar
+## Tecnologias Utilizadas
 
-    Abra o Arquivo HTML em um Navegador:
+- **HTML:** Estrutura da página.
+- **JavaScript:** Lógica de manipulação e exibição das escalas musicais.
 
-    Abra o arquivo index.html em um navegador de sua escolha para visualizar e interagir com a ferramenta.
+## Como Usar
 
-    Escolha a Opção de Sustenido ou Bemol:
+1. **Abra o Arquivo HTML em um Navegador:**
 
-    Selecione a opção desejada clicando no botão de rádio correspondente ("Sustenido" ou "Bemol").
+   Entre no site: https://erichs890.github.io/Tonalidade-de-Partituras/
 
-    Insira o Número de Sustenidos ou Bemóis:
+2. **Escolha a Opção de Sustenido ou Bemol:**
 
-    Use o campo de entrada numérico para inserir um número de 0 a 7 e veja as informações correspondentes exibidas na tela.
+   Selecione a opção desejada clicando no botão de rádio ("Sustenido" ou "Bemol").
 
-Estrutura do Projeto
+3. **Insira o Número de Sustenidos ou Bemóis:**
 
-    index.html: Arquivo HTML principal.
-    script.js: Arquivo JavaScript que contém a lógica do projeto.
-    styles.css (opcional): Arquivo CSS para estilização (não incluído neste exemplo).
+   Use o campo de entrada numérico para inserir um número de 0 a 7 e visualize as informações correspondentes.
 
-Licença
+## Estrutura do Projeto
 
-Este projeto está disponível para uso e modificação pessoal. Não há restrições específicas para uso não comercial.
-Contato
+- `index.html`: Arquivo HTML principal.
+- `script.js`: Arquivo JavaScript com a lógica do projeto.
+- `styles.css` (opcional): Arquivo CSS para estilização (não incluído neste exemplo).
+
+## Licença
+
+Este projeto é de uso livre e pode ser modificado para fins pessoais. Não há restrições específicas para uso não comercial.
+
+## Contato
 
 Para dúvidas ou sugestões, entre em contato:
 
-    Seu Nome - seu.email@example.com
+- **Erich Lima Schlaepfer** - [erichs890@gmail.com](mailto:erichs890@gmail.com)
