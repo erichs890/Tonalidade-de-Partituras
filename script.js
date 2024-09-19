@@ -62,10 +62,13 @@ function criarInput(tipo){
 }
 
 sustenidoRadio.addEventListener('change', function() {
+    resultado.innerHTML = ""
     criarInput('Sustenido')
 })
 
 bemolRadio.addEventListener('change', function() {
+    resultado.innerHTML = ""
+
     criarInput('Bemol')
 })
 
