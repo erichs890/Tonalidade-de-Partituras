@@ -15,70 +15,71 @@ const sustenidos = [
 
 const bemols = [
     { 
-        "num": 0, 
-        "tom": "Dó maior", 
-        "tomRelativo": "Lá menor", 
-        "escala": "DÓ-RÉ-MI-FÁ-SOL-LÁ-SI-DÓ", 
-        "escalaCifra": "C-D-E-F-G-A-B", 
-        "notasBemol": "Nenhuma" 
+        num: 0, 
+        tom: "Dó maior", 
+        tomRelativo: "Lá menor", 
+        escala: "DÓ-RÉ-MI-FÁ-SOL-LÁ-SI-DÓ", 
+        escalaCifra: "C-D-E-F-G-A-B", 
+        notasBemol: "Nenhuma" 
     },
     { 
-        "num": 1, 
-        "tom": "Fá maior", 
-        "tomRelativo": "Ré menor", 
-        "escala": "FÁ-SOL-LÁ-SI BEMOL-DÓ-RÉ-MI-FÁ", 
-        "escalaCifra": "F-G-A-Bb-C-D-E-F", 
-        "notasBemol": "Si" 
+        num: 1, 
+        tom: "Fá maior", 
+        tomRelativo: "Ré menor", 
+        escala: "FÁ-SOL-LÁ-SI BEMOL-DÓ-RÉ-MI-FÁ", 
+        escalaCifra: "F-G-A-Bb-C-D-E-F", 
+        notasBemol: "Si" 
     },
     { 
-        "num": 2, 
-        "tom": "Si bemol maior", 
-        "tomRelativo": "Sol menor", 
-        "escala": "SI BEMOL-DÓ-RÉ-MI BEMOL-FÁ-SOL-LÁ-SI BEMOL", 
-        "escalaCifra": "Bb-C-D-Eb-F-G-A-Bb", 
-        "notasBemol": "Si, Mi" 
+        num: 2, 
+        tom: "Si bemol maior", 
+        tomRelativo: "Sol menor", 
+        escala: "SI BEMOL-DÓ-RÉ-MI BEMOL-FÁ-SOL-LÁ-SI BEMOL", 
+        escalaCifra: "Bb-C-D-Eb-F-G-A-Bb", 
+        notasBemol: "Si, Mi" 
     },
     { 
-        "num": 3, 
-        "tom": "Mi bemol maior", 
-        "tomRelativo": "Dó menor", 
-        "escala": "MI BEMOL-FÁ-SOL-LÁ BEMOL-SI BEMOL-DÓ-RÉ-MI BEMOL", 
-        "escalaCifra": "Eb-F-G-Ab-Bb-C-D-Eb", 
-        "notasBemol": "Si, Mi, Lá" 
+        num: 3, 
+        tom: "Mi bemol maior", 
+        tomRelativo: "Dó menor", 
+        escala: "MI BEMOL-FÁ-SOL-LÁ BEMOL-SI BEMOL-DÓ-RÉ-MI BEMOL", 
+        escalaCifra: "Eb-F-G-Ab-Bb-C-D-Eb", 
+        notasBemol: "Si, Mi, Lá" 
     },
     { 
-        "num": 4, 
-        "tom": "Lá bemol maior", 
-        "tomRelativo": "Fá menor", 
-        "escala": "LÁ BEMOL-SI BEMOL-DÓ-RÉ BEMOL-MI BEMOL-FÁ-SOL-LÁ BEMOL", 
-        "escalaCifra": "Ab-Bb-C-Db-Eb-F-G-Ab", 
-        "notasBemol": "Si, Mi, Lá, Ré" 
+        num: 4, 
+        tom: "Lá bemol maior", 
+        tomRelativo: "Fá menor", 
+        escala: "LÁ BEMOL-SI BEMOL-DÓ-RÉ BEMOL-MI BEMOL-FÁ-SOL-LÁ BEMOL", 
+        escalaCifra: "Ab-Bb-C-Db-Eb-F-G-Ab", 
+        notasBemol: "Si, Mi, Lá, Ré" 
     },
     { 
-        "num": 5, 
-        "tom": "Ré bemol maior", 
-        "tomRelativo": "Si bemol menor", 
-        "escala": "RÉ BEMOL-MI BEMOL-FÁ-SOL BEMOL-LÁ BEMOL-SI BEMOL-DÓ-RÉ BEMOL", 
-        "escalaCifra": "Db-Eb-F-Gb-Ab-Bb-C-Db", 
-        "notasBemol": "Si, Mi, Lá, Ré, Sol" 
+        num: 5, 
+        tom: "Ré bemol maior", 
+        tomRelativo: "Si bemol menor", 
+        escala: "RÉ BEMOL-MI BEMOL-FÁ-SOL BEMOL-LÁ BEMOL-SI BEMOL-DÓ-RÉ BEMOL", 
+        escalaCifra: "Db-Eb-F-Gb-Ab-Bb-C-Db", 
+        notasBemol: "Si, Mi, Lá, Ré, Sol" 
     },
     { 
-        "num": 6, 
-        "tom": "Sol bemol maior", 
-        "tomRelativo": "Mi bemol menor", 
-        "escala": "SOL BEMOL-LÁ BEMOL-SI BEMOL-DÓ BEMOL-RÉ BEMOL-MI BEMOL-FÁ-SOL BEMOL", 
-        "escalaCifra": "Gb-Ab-Bb-Cb-Db-Eb-F-Gb", 
-        "notasBemol": "Si, Mi, Lá, Ré, Sol, Dó" 
+        num: 6, 
+        tom: "Sol bemol maior", 
+        tomRelativo: "Mi bemol menor", 
+        escala: "SOL BEMOL-LÁ BEMOL-SI BEMOL-DÓ BEMOL-RÉ BEMOL-MI BEMOL-FÁ-SOL BEMOL", 
+        escalaCifra: "Gb-Ab-Bb-Cb-Db-Eb-F-Gb", 
+        notasBemol: "Si, Mi, Lá, Ré, Sol, Dó" 
     },
     { 
-        "num": 7, 
-        "tom": "Dó bemol maior", 
-        "tomRelativo": "Lá bemol menor", 
-        "escala": "DÓ BEMOL-RÉ BEMOL-MI BEMOL-FÁ BEMOL-SOL BEMOL-LÁ BEMOL-SI BEMOL-DÓ BEMOL", 
-        "escalaCifra": "Cb-Db-Eb-Fb-Gb-Ab-Bb-Cb", 
-        "notasBemol": "Si, Mi, Lá, Ré, Sol, Dó, Fá" 
+        num: 7, 
+        tom: "Dó bemol maior", 
+        tomRelativo: "Lá bemol menor", 
+        escala: "DÓ BEMOL-RÉ BEMOL-MI BEMOL-FÁ BEMOL-SOL BEMOL-LÁ BEMOL-SI BEMOL-DÓ BEMOL", 
+        escalaCifra: "Cb-Db-Eb-Fb-Gb-Ab-Bb-Cb", 
+        notasBemol: "Si, Mi, Lá, Ré, Sol, Dó, Fá" 
     }
-]
+];
+
 
 
 function criarInput(tipo){
