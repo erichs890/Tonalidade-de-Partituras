@@ -115,3 +115,44 @@ function exibirBemol(tomSelecionado){
     resultado.appendChild(container)
 
 }
+
+
+
+
+// Elementos do DOM
+// Dados das escalas (sustenidos e bemóis)
+const escalas = [...bemois, ...sustenidos]
+
+// Elementos do DOM
+const inputPesquisa = document.querySelector("#inputPesquisa");
+const listaSugestoes = document.querySelector("#listaSugestoes");
+
+// Função para atualizar as sugestões
+function atualizarSugestoes() {
+    const textoDigitado = inputPesquisa.value.toLowerCase();
+    listaSugestoes.innerHTML = "";
+
+    if (textoDigitado === "") return;
+
+    const resultadosFiltrados = escalas.filter(escala =>
+        escala.tom.toLowerCase().includes(textoDigitado) || escala.tomRelativo.toLowerCase().includes(textoDigitado)
+    );
+
+    resultadosFiltrados.forEach(escala => {
+        const item = document.createElement("li");
+        item.textContent = `${escala.tom}, ${escala.tomRelativo}`;
+        item.addEventListener("click", () => {
+            inputPesquisa.value = escala.tom;
+            listaSugestoes.innerHTML = "";
+            if (sustenidos.includes(escala)) {
+                exibirSus(escala);  // Chama a função exibirSus para escalas de sustenido
+            } else if (bemois.includes(escala)) {
+                exibirBemol(escala);  // Chama a função exibirBemol para escalas de bemol
+            }
+        });
+        listaSugestoes.appendChild(item);
+    });
+}
+
+// Evento para capturar a digitação
+inputPesquisa.addEventListener("input", atualizarSugestoes);

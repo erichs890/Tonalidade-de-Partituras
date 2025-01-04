@@ -4,8 +4,56 @@ body {
     color: #333;
     text-align: center;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo no eixo horizontal */
 }
 
+/* Estilo do input de pesquisa */
+#inputPesquisa {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo da lista de sugestões (corrigido para exibir abaixo do campo de pesquisa) */
+.pesquisa {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+}
+
+.autocomplete-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%; /* Ajusta para a largura do input */
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 100%; /* Faz com que a lista apareça logo abaixo do input */
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destacar a lista */
+}
+
+/* Estilo dos itens da lista de sugestões */
+.autocomplete-list li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo de hover para os itens da lista */
+.autocomplete-list li:hover {
+    background-color: #f0f0f0;
+}
 h1 {
     color: #4CAF50;
     font-size: 2.5em;
