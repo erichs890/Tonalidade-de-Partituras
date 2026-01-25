@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://erichs890.github.io/Tonalidade-de-Partituras",
+  "homepage": "https://erichs890.github.io/Tonalidade-de-Partituras/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
