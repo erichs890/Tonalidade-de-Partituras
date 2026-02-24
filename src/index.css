@@ -436,21 +436,95 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 640px) {
+@media (max-width: 600px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  #root {
+    padding: 2rem 1rem;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .search-container {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .search-input {
+    padding: 1rem 2.5rem !important;
+    font-size: 1rem;
+  }
+
+  .radio-group {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .radio-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .card {
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .card-content {
+    gap: 2rem;
   }
 
   .title-key {
+    font-size: 2rem;
+    word-break: break-word;
+  }
+
+  .data-grid {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .data-box {
+    min-width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .data-value-large {
     font-size: 2.5rem;
   }
 
   .scale-visual,
   .chords-visual {
     justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .note-group, .chord-badge {
+    min-width: auto;
+    flex: 1 1 calc(33.333% - 0.5rem);
+    padding: 0.5rem;
+  }
+
+  .note-name, .chord-name {
+    font-size: 1rem;
   }
 }
